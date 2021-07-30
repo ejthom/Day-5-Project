@@ -46,12 +46,29 @@ li a {
   padding: 20px;
   float: right;
 
- 
-  
 }
 
 li:hover {
-  background-color: ;
+  background-color: blueviolet;
+}
+
+h2 {
+  color:blueviolet;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+p {
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+}
+
+.contact-section {
+  background-color: coral;
+}
+
+.contact-header {
+  color:darkblue;
 }
 
 section {
@@ -80,11 +97,10 @@ aside {
     border-style: double;
     border-color:lawngreen;
     float: right;
-    font-style: italic;
     background-color: lightgray;
 }
 
-#footer {
+#main-footer {
   background-color:lightslategray;
   text-align: center;
   position: absolute;
@@ -102,3 +118,4 @@ aside {
   position: relative;
   min-height: 100vh;
 }
+
